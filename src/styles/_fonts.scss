@@ -1,0 +1,366 @@
+// fonts
+/*-------------------------------------------------------------------------------------------------*/
+
+// greta sans regular
+/*-------------------------------------------------------------------------------------------------*/
+// @font-face {
+//     font-family: 'GretaSansStdHair';
+//     src: url('../fonts/greta-sans/hair/GretaSansStd-Hair.eot'); /* IE9 Compat Modes */
+//     src: url('../fonts/greta-sans/hair/GretaSansStd-Hair.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+//          url('../fonts/greta-sans/hair/GretaSansStd-Hair.woff') format('woff'), /* Modern Browsers */
+//          url('../fonts/greta-sans/hair/GretaSansStd-Hair.ttf') format('truetype'), /* Safari, Android, iOS */
+//          url('../fonts/greta-sans/hair/GretaSansStd-Hair.svg#GretaSansStd-Hair') format('svg'); /* Legacy iOS */
+//     font-style: normal;
+//     font-weight: normal;
+//     text-rendering: optimizeLegibility;
+// }
+
+// @font-face {
+//     font-family: 'GretaSansStdHairIta';
+//     src: url('../fonts/greta-sans/hair-italic/GretaSansStd-HairIta.eot'); /* IE9 Compat Modes */
+//     src: url('../fonts/greta-sans/hair-italic/GretaSansStd-HairIta.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+//          url('../fonts/greta-sans/hair-italic/GretaSansStd-HairIta.woff') format('woff'), /* Modern Browsers */
+//          url('../fonts/greta-sans/hair-italic/GretaSansStd-HairIta.ttf') format('truetype'), /* Safari, Android, iOS */
+//          url('../fonts/greta-sans/hair-italic/GretaSansStd-HairIta.svg#GretaSansStd-HairIta') format('svg'); /* Legacy iOS */
+//     font-style: normal;
+//     font-weight: normal;
+//     text-rendering: optimizeLegibility;
+// }
+
+// @font-face {
+//     font-family: 'GretaSansStdThin';
+//     src: url('../fonts/greta-sans/thin/GretaSansStd-Thin.eot'); /* IE9 Compat Modes */
+//     src: url('../fonts/greta-sans/thin/GretaSansStd-Thin.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+//          url('../fonts/greta-sans/thin/GretaSansStd-Thin.woff') format('woff'), /* Modern Browsers */
+//          url('../fonts/greta-sans/thin/GretaSansStd-Thin.ttf') format('truetype'), /* Safari, Android, iOS */
+//          url('../fonts/greta-sans/thin/GretaSansStd-Thin.svg#GretaSansStd-Thin') format('svg'); /* Legacy iOS */
+//     font-style: normal;
+//     font-weight: normal;
+//     text-rendering: optimizeLegibility;
+// }
+
+// @font-face {
+//     font-family: 'GretaSansStdThinIta';
+//     src: url('../fonts/greta-sans/thin-italic/GretaSansStd-ThinIta.eot'); /* IE9 Compat Modes */
+//     src: url('../fonts/greta-sans/thin-italic/GretaSansStd-ThinIta.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+//          url('../fonts/greta-sans/thin-italic/GretaSansStd-ThinIta.woff') format('woff'), /* Modern Browsers */
+//          url('../fonts/greta-sans/thin-italic/GretaSansStd-ThinIta.ttf') format('truetype'), /* Safari, Android, iOS */
+//          url('../fonts/greta-sans/thin-italic/GretaSansStd-ThinIta.svg#GretaSansStd-ThinIta') format('svg'); /* Legacy iOS */
+//     font-style: normal;
+//     font-weight: normal;
+//     text-rendering: optimizeLegibility;
+// }
+
+// @font-face {
+//     font-family: 'GretaSansStdExLt';
+//     src: url('../fonts/greta-sans/extra-light/GretaSansStd-ExLt.eot'); /* IE9 Compat Modes */
+//     src: url('../fonts/greta-sans/extra-light/GretaSansStd-ExLt.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+//          url('../fonts/greta-sans/extra-light/GretaSansStd-ExLt.woff') format('woff'), /* Modern Browsers */
+//          url('../fonts/greta-sans/extra-light/GretaSansStd-ExLt.ttf') format('truetype'), /* Safari, Android, iOS */
+//          url('../fonts/greta-sans/extra-light/GretaSansStd-ExLt.svg#GretaSansStd-ExLt') format('svg'); /* Legacy iOS */
+//     font-style: normal;
+//     font-weight: normal;
+//     text-rendering: optimizeLegibility;
+// }
+
+// @font-face {
+//     font-family: 'GretaSansStdExLtIta';
+//     src: url('../fonts/greta-sans/extra-light-italic/GretaSansStd-ExLtIta.eot'); /* IE9 Compat Modes */
+//     src: url('../fonts/greta-sans/extra-light-italic/GretaSansStd-ExLtIta.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+//          url('../fonts/greta-sans/extra-light-italic/GretaSansStd-ExLtIta.woff') format('woff'), /* Modern Browsers */
+//          url('../fonts/greta-sans/extra-light-italic/GretaSansStd-ExLtIta.ttf') format('truetype'), /* Safari, Android, iOS */
+//          url('../fonts/greta-sans/extra-light-italic/GretaSansStd-ExLtIta.svg#GretaSansStd-ExLtIta') format('svg'); /* Legacy iOS */
+//     font-style: normal;
+//     font-weight: normal;
+//     text-rendering: optimizeLegibility;
+// }
+
+// @font-face {
+//     font-family: 'GretaSansStdLt';
+//     src: url('../fonts/greta-sans/light/GretaSansStd-Lt.eot'); /* IE9 Compat Modes */
+//     src: url('../fonts/greta-sans/light/GretaSansStd-Lt.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+//          url('../fonts/greta-sans/light/GretaSansStd-Lt.woff') format('woff'), /* Modern Browsers */
+//          url('../fonts/greta-sans/light/GretaSansStd-Lt.ttf') format('truetype'), /* Safari, Android, iOS */
+//          url('../fonts/greta-sans/light/GretaSansStd-Lt.svg#GretaSansStd-Lt') format('svg'); /* Legacy iOS */
+//     font-style: normal;
+//     font-weight: normal;
+//     text-rendering: optimizeLegibility;
+// }
+
+// @font-face {
+//     font-family: 'GretaSansStdLtIta';
+//     src: url('../fonts/greta-sans/light-italic/GretaSansStd-LtIta.eot'); /* IE9 Compat Modes */
+//     src: url('../fonts/greta-sans/light-italic/GretaSansStd-LtIta.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+//          url('../fonts/greta-sans/light-italic/GretaSansStd-LtIta.woff') format('woff'), /* Modern Browsers */
+//          url('../fonts/greta-sans/light-italic/GretaSansStd-LtIta.ttf') format('truetype'), /* Safari, Android, iOS */
+//          url('../fonts/greta-sans/light-italic/GretaSansStd-LtIta.svg#GretaSansStd-LtIta') format('svg'); /* Legacy iOS */
+//     font-style: normal;
+//     font-weight: normal;
+//     text-rendering: optimizeLegibility;
+// }
+
+@font-face {
+    font-family: 'GretaSansStdReg';
+    src: url('../fonts/greta-sans/regular/GretaSansStd-Reg.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/greta-sans/regular/GretaSansStd-Reg.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/greta-sans/regular/GretaSansStd-Reg.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/greta-sans/regular/GretaSansStd-Reg.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/greta-sans/regular/GretaSansStd-Reg.svg#GretaSansStd-Reg') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'GretaSansStdRegIta';
+    src: url('../fonts/greta-sans/regular-italic/GretaSansStd-RegIta.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/greta-sans/regular-italic/GretaSansStd-RegIta.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/greta-sans/regular-italic/GretaSansStd-RegIta.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/greta-sans/regular-italic/GretaSansStd-RegIta.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/greta-sans/regular-italic/GretaSansStd-RegIta.svg#GretaSansStd-RegIta') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+// @font-face {
+//     font-family: 'GretaSansStdMed';
+//     src: url('../fonts/greta-sans/medium/GretaSansStd-Med.eot'); /* IE9 Compat Modes */
+//     src: url('../fonts/greta-sans/medium/GretaSansStd-Med.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+//          url('../fonts/greta-sans/medium/GretaSansStd-Med.woff') format('woff'), /* Modern Browsers */
+//          url('../fonts/greta-sans/medium/GretaSansStd-Med.ttf') format('truetype'), /* Safari, Android, iOS */
+//          url('../fonts/greta-sans/medium/GretaSansStd-Med.svg#GretaSansStd-Med') format('svg'); /* Legacy iOS */
+//     font-style: normal;
+//     font-weight: normal;
+//     text-rendering: optimizeLegibility;
+// }
+
+// @font-face {
+//     font-family: 'GretaSansStdMedIta';
+//     src: url('../fonts/greta-sans/medium/GretaSansStd-MedIta.eot'); /* IE9 Compat Modes */
+//     src: url('../fonts/greta-sans/medium/GretaSansStd-MedIta.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+//          url('../fonts/greta-sans/medium/GretaSansStd-MedIta.woff') format('woff'), /* Modern Browsers */
+//          url('../fonts/greta-sans/medium/GretaSansStd-MedIta.ttf') format('truetype'), /* Safari, Android, iOS */
+//          url('../fonts/greta-sans/medium/GretaSansStd-MedIta.svg#GretaSansStd-MedIta') format('svg'); /* Legacy iOS */
+//     font-style: normal;
+//     font-weight: normal;
+//     text-rendering: optimizeLegibility;
+// }
+
+@font-face {
+    font-family: 'GretaSansStdSmBld';
+    src: url('../fonts/greta-sans/semi-bold/GretaSansStd-SmBld.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/greta-sans/semi-bold/GretaSansStd-SmBld.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/greta-sans/semi-bold/GretaSansStd-SmBld.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/greta-sans/semi-bold/GretaSansStd-SmBld.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/greta-sans/semi-bold/GretaSansStd-SmBld.svg#GretaSansStd-SmBld') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+// @font-face {
+//     font-family: 'GretaSansStdSmBldIta';
+//     src: url('../fonts/greta-sans/semi-bold/GretaSansStd-SmBldIta.eot'); /* IE9 Compat Modes */
+//     src: url('../fonts/greta-sans/semi-bold/GretaSansStd-SmBldIta.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+//          url('../fonts/greta-sans/semi-bold/GretaSansStd-SmBldIta.woff') format('woff'), /* Modern Browsers */
+//          url('../fonts/greta-sans/semi-bold/GretaSansStd-SmBldIta.ttf') format('truetype'), /* Safari, Android, iOS */
+//          url('../fonts/greta-sans/semi-bold/GretaSansStd-SmBldIta.svg#GretaSansStd-SmBldIta') format('svg'); /* Legacy iOS */
+//     font-style: normal;
+//     font-weight: normal;
+//     text-rendering: optimizeLegibility;
+// }
+
+// @font-face {
+//     font-family: 'GretaSansStdBld';
+//     src: url('../fonts/greta-sans/bold/GretaSansStd-Bld.eot'); /* IE9 Compat Modes */
+//     src: url('../fonts/greta-sans/bold/GretaSansStd-Bld.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+//          url('../fonts/greta-sans/bold/GretaSansStd-Bld.woff') format('woff'), /* Modern Browsers */
+//          url('../fonts/greta-sans/bold/GretaSansStd-Bld.ttf') format('truetype'), /* Safari, Android, iOS */
+//          url('../fonts/greta-sans/bold/GretaSansStd-Bld.svg#GretaSansStd-Bld') format('svg'); /* Legacy iOS */
+//     font-style: normal;
+//     font-weight: normal;
+//     text-rendering: optimizeLegibility;
+// }
+
+// @font-face {
+//     font-family: 'GretaSansStdBldIta';
+//     src: url('../fonts/greta-sans/bold/GretaSansStd-BldIta.eot'); /* IE9 Compat Modes */
+//     src: url('../fonts/greta-sans/bold/GretaSansStd-BldIta.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+//          url('../fonts/greta-sans/bold/GretaSansStd-BldIta.woff') format('woff'), /* Modern Browsers */
+//          url('../fonts/greta-sans/bold/GretaSansStd-BldIta.ttf') format('truetype'), /* Safari, Android, iOS */
+//          url('../fonts/greta-sans/bold/GretaSansStd-BldIta.svg#GretaSansStd-BldIta') format('svg'); /* Legacy iOS */
+//     font-style: normal;
+//     font-weight: normal;
+//     text-rendering: optimizeLegibility;
+// }
+
+// @font-face {
+//     font-family: 'GretaSansStdBlk';
+//     src: url('../fonts/greta-sans/black/GretaSansStd-Blk.eot'); /* IE9 Compat Modes */
+//     src: url('../fonts/greta-sans/black/GretaSansStd-Blk.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+//          url('../fonts/greta-sans/black/GretaSansStd-Blk.woff') format('woff'), /* Modern Browsers */
+//          url('../fonts/greta-sans/black/GretaSansStd-Blk.ttf') format('truetype'), /* Safari, Android, iOS */
+//          url('../fonts/greta-sans/black/GretaSansStd-Blk.svg#GretaSansStd-Blk') format('svg'); /* Legacy iOS */
+//     font-style: normal;
+//     font-weight: normal;
+//     text-rendering: optimizeLegibility;
+// }
+
+// @font-face {
+//     font-family: 'GretaSansStdBlkIta';
+//     src: url('../fonts/greta-sans/black/GretaSansStd-BlkIta.eot'); /* IE9 Compat Modes */
+//     src: url('../fonts/greta-sans/black/GretaSansStd-BlkIta.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+//          url('../fonts/greta-sans/black/GretaSansStd-BlkIta.woff') format('woff'), /* Modern Browsers */
+//          url('../fonts/greta-sans/black/GretaSansStd-BlkIta.ttf') format('truetype'), /* Safari, Android, iOS */
+//          url('../fonts/greta-sans/black/GretaSansStd-BlkIta.svg#GretaSansStd-BlkIta') format('svg'); /* Legacy iOS */
+//     font-style: normal;
+//     font-weight: normal;
+//     text-rendering: optimizeLegibility;
+// }
+
+@font-face {
+    font-family: 'GretaSansStdHea';
+    src: url('../fonts/greta-sans/heavy/GretaSansStd-Hea.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/greta-sans/heavy/GretaSansStd-Hea.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/greta-sans/heavy/GretaSansStd-Hea.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/greta-sans/heavy/GretaSansStd-Hea.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/greta-sans/heavy/GretaSansStd-Hea.svg#GretaSansStd-Hea') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'GretaSansStdHeaIta';
+    src: url('../fonts/greta-sans/heavy-italic/GretaSansStd-HeaIta.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/greta-sans/heavy-italic/GretaSansStd-HeaIta.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/greta-sans/heavy-italic/GretaSansStd-HeaIta.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/greta-sans/heavy-italic/GretaSansStd-HeaIta.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/greta-sans/heavy-italic/GretaSansStd-HeaIta.svg#GretaSansStd-Hea') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+// greta sans condensed
+/*-------------------------------------------------------------------------------------------------*/
+// @font-face {
+//     font-family: 'GretaSansCndStdHair';
+//     src: url('../fonts/greta-sans-condensed/hair/GretaSansCndStd-Hair.eot'); /* IE9 Compat Modes */
+//     src: url('../fonts/greta-sans-condensed/hair/GretaSansCndStd-Hair.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+//          url('../fonts/greta-sans-condensed/hair/GretaSansCndStd-Hair.woff') format('woff'), /* Modern Browsers */
+//          url('../fonts/greta-sans-condensed/hair/GretaSansCndStd-Hair.ttf') format('truetype'), /* Safari, Android, iOS */
+//          url('../fonts/greta-sans-condensed/hair/GretaSansCndStd-Hair.svg#GretaSansCndStd-Hair') format('svg'); /* Legacy iOS */
+//     font-style: normal;
+//     font-weight: normal;
+//     text-rendering: optimizeLegibility;
+// }
+
+// @font-face {
+//     font-family: 'GretaSansCndStdThin';
+//     src: url('../fonts/greta-sans-condensed/thin/GretaSansCndStd-Thin.eot'); /* IE9 Compat Modes */
+//     src: url('../fonts/greta-sans-condensed/thin/GretaSansCndStd-Thin.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+//          url('../fonts/greta-sans-condensed/thin/GretaSansCndStd-Thin.woff') format('woff'), /* Modern Browsers */
+//          url('../fonts/greta-sans-condensed/thin/GretaSansCndStd-Thin.ttf') format('truetype'), /* Safari, Android, iOS */
+//          url('../fonts/greta-sans-condensed/thin/GretaSansCndStd-Thin.svg#GretaSansCndStd-Thin') format('svg'); /* Legacy iOS */
+//     font-style: normal;
+//     font-weight: normal;
+//     text-rendering: optimizeLegibility;
+// }
+
+// @font-face {
+//     font-family: 'GretaSansCndStdExLt';
+//     src: url('../fonts/greta-sans-condensed/extra-light/GretaSansCndStd-ExLt.eot'); /* IE9 Compat Modes */
+//     src: url('../fonts/greta-sans-condensed/extra-light/GretaSansCndStd-ExLt.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+//          url('../fonts/greta-sans-condensed/extra-light/GretaSansCndStd-ExLt.woff') format('woff'), /* Modern Browsers */
+//          url('../fonts/greta-sans-condensed/extra-light/GretaSansCndStd-ExLt.ttf') format('truetype'), /* Safari, Android, iOS */
+//          url('../fonts/greta-sans-condensed/extra-light/GretaSansCndStd-ExLt.svg#GretaSansCndStd-ExLt') format('svg'); /* Legacy iOS */
+//     font-style: normal;
+//     font-weight: normal;
+//     text-rendering: optimizeLegibility;
+// }
+
+// @font-face {
+//     font-family: 'GretaSansCndStdLt';
+//     src: url('../fonts/greta-sans-condensed/light/GretaSansCndStd-Lt.eot'); /* IE9 Compat Modes */
+//     src: url('../fonts/greta-sans-condensed/light/GretaSansCndStd-Lt.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+//          url('../fonts/greta-sans-condensed/light/GretaSansCndStd-Lt.woff') format('woff'), /* Modern Browsers */
+//          url('../fonts/greta-sans-condensed/light/GretaSansCndStd-Lt.ttf') format('truetype'), /* Safari, Android, iOS */
+//          url('../fonts/greta-sans-condensed/light/GretaSansCndStd-Lt.svg#GretaSansCndStd-Lt') format('svg'); /* Legacy iOS */
+//     font-style: normal;
+//     font-weight: normal;
+//     text-rendering: optimizeLegibility;
+// }
+
+@font-face {
+    font-family: 'GretaSansCndStdReg';
+    src: url('../fonts/greta-sans-condensed/regular/GretaSansCndStd-Reg.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/greta-sans-condensed/regular/GretaSansCndStd-Reg.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/greta-sans-condensed/regular/GretaSansCndStd-Reg.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/greta-sans-condensed/regular/GretaSansCndStd-Reg.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/greta-sans-condensed/regular/GretaSansCndStd-Reg.svg#GretaSansCndStd-Reg') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+// @font-face {
+//     font-family: 'GretaSansCndStdMed';
+//     src: url('../fonts/greta-sans-condensed/medium/GretaSansCndStd-Med.eot'); /* IE9 Compat Modes */
+//     src: url('../fonts/greta-sans-condensed/medium/GretaSansCndStd-Med.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+//          url('../fonts/greta-sans-condensed/medium/GretaSansCndStd-Med.woff') format('woff'), /* Modern Browsers */
+//          url('../fonts/greta-sans-condensed/medium/GretaSansCndStd-Med.ttf') format('truetype'), /* Safari, Android, iOS */
+//          url('../fonts/greta-sans-condensed/medium/GretaSansCndStd-Med.svg#GretaSansCndStd-Med') format('svg'); /* Legacy iOS */
+//     font-style: normal;
+//     font-weight: normal;
+//     text-rendering: optimizeLegibility;
+// }
+
+@font-face {
+    font-family: 'GretaSansCndStdSmBld';
+    src: url('../fonts/greta-sans-condensed/semi-bold/GretaSansCndStd-SmBld.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/greta-sans-condensed/semi-bold/GretaSansCndStd-SmBld.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/greta-sans-condensed/semi-bold/GretaSansCndStd-SmBld.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/greta-sans-condensed/semi-bold/GretaSansCndStd-SmBld.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/greta-sans-condensed/semi-bold/GretaSansCndStd-SmBld.svg#GretaSansCndStd-SmBld') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'GretaSansCndStdBld';
+    src: url('../fonts/greta-sans-condensed/bold/GretaSansCndStd-Bld.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/greta-sans-condensed/bold/GretaSansCndStd-Bld.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/greta-sans-condensed/bold/GretaSansCndStd-Bld.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/greta-sans-condensed/bold/GretaSansCndStd-Bld.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/greta-sans-condensed/bold/GretaSansCndStd-Bld.svg#GretaSansCndStd-Bld') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+// @font-face {
+//     font-family: 'GretaSansCndStdBlk';
+//     src: url('../fonts/greta-sans-condensed/black/GretaSansCndStd-Blk.eot'); /* IE9 Compat Modes */
+//     src: url('../fonts/greta-sans-condensed/black/GretaSansCndStd-Blk.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+//          url('../fonts/greta-sans-condensed/black/GretaSansCndStd-Blk.woff') format('woff'), /* Modern Browsers */
+//          url('../fonts/greta-sans-condensed/black/GretaSansCndStd-Blk.ttf') format('truetype'), /* Safari, Android, iOS */
+//          url('../fonts/greta-sans-condensed/black/GretaSansCndStd-Blk.svg#GretaSansCndStd-Blk') format('svg'); /* Legacy iOS */
+//     font-style: normal;
+//     font-weight: normal;
+//     text-rendering: optimizeLegibility;
+// }
+
+@font-face {
+    font-family: 'GretaSansCndStdHea';
+    src: url('../fonts/greta-sans-condensed/heavy/GretaSansCndStd-Hea.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/greta-sans-condensed/heavy/GretaSansCndStd-Hea.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/greta-sans-condensed/heavy/GretaSansCndStd-Hea.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/greta-sans-condensed/heavy/GretaSansCndStd-Hea.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/greta-sans-condensed/heavy/GretaSansCndStd-Hea.svg#GretaSansCndStd-Hea') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
