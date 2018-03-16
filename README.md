@@ -16,7 +16,7 @@ Use this repo as a starting point for your next static site build.
 - [Gulp](http://gulpjs.com/) - Efficient, configurable, streaming task runner
 - [Gulp File Include](https://github.com/coderhaoxin/gulp-file-include) - Basic HTML templating/includes.
 - [BrowserSync](https://www.browsersync.io/) - Live reload changes
-- [Webpack 2.6](https://webpack.github.io) - Automatic common module chunk bundling and tree shaking
+- [Webpack](https://webpack.github.io) - Automatic common module chunk bundling and tree shaking
 - [Babel](https://babeljs.io/) - Use the latest ECMAScript features like all the cool kids
 - [Sass](http://sass-lang.com/) - Easier CSS dev with variables, nesting, partials, import, mixins, inheritance, and operators
 - [PostCSS](http://postcss.org/) - Autoprefix CSS
